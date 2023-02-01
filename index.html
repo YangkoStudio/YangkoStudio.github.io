@@ -2,44 +2,105 @@
 <html>
 <!--------------------------------------------------------------------------------------------------------------->
 <style>
-        a{padding:0 20px;text-decoration: none;}
-        a:link {color: black;background-color: transparent;text-decoration: none;}
-        a:visited {color: black;background-color: transparent;text-decoration: none;}
-        a:hover {color: blue;background-color: transparent;text-decoration: none;}
-        a:active {color: black;background-color: transparent;text-decoration: none;}
-    *{margin: 0px;}
-    ul.one 
-{border-style:solid;border-width:1px;}
+        a{
+			padding:0 20px;
+			text-decoration: none;
+		}
+        a:link{
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+        a:visited{
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+        a:hover{
+			color: blue;
+			background-color: transparent;
+			text-decoration: none;
+		}
+        a:active{
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+    	*{
+			margin: 0px;
+		}
+   		ul.ul-1{
+			border-style:solid;
+			border-width:2px;
+			background-color:#E6E6FA;
+			text-align:left;
+			padding: 15px;
+			margin-top: 5px;
+			margin-right:5px;
+			margin-left:5px;
+			height: 120px;
+			border-radius: 4px;
+		}
+		input.bt-1{
+			text-align: center;
+		 	width:200px;
+		 	height:30px;
+		 	font-size:15px;
+		 	margin-top:30px;
+		 	margin-right:10px;
+			border: 2px solid #555555;
+			border-radius: 4px;
+		}
+		
+		.bt-1:hover {  background-color: #555555;
+  color: white;}
  </style>
 <!--------------------------------------------------------------------------------------------------------------->
 <head>
     <title>Yangko Studio</title>
 </head>
-<!--------------------------------------------------------------------------------------------------------------->
 <body>
-<h1 style="background-image: linear-gradient(to right, blue , green , yellow , violet , red);padding: 20px;">
-<font color="lightyellow">Yangko Studio</font></h1>
-<h2><b>
-	<ul style="background-color:#CD853F;text-align:center;padding: 5px;margin-top: 10px;"> 
-		<a href="index.html">主页</a>
-		<a href="html/1.htm">动态</a>
-		<a href="html/1.htm">商店</a>
-		<a href="html/2.htm">文件</a>
-	</ul>
-</h2></b>
-<ul class="one" style="background-color:#E6E6FA;text-align:left;padding: 15px;margin-top: 10px;height: 120px;">
-    <h2>Ahou</h2>
+<!--------------------------------------------------------------------------------------------------------------->
+	<h1 style="background-image: linear-gradient(to right, blue , green , yellow , violet , red);padding: 20px;">
+		<font color="lightyellow">
+        	Yangko Studio
+        </font>
+	</h1>
+<!--------------------------------------------------------------------------------------------------------------->
+<h2>
+	<b>
+		<ul style="background-color:#CD853F;text-align:center;padding: 5px;margin-top: 10px;"> 
+			<a href="index.html">主页</a>
+			<a href="html/1.htm">动态</a>
+			<a href="html/1.htm">商店</a>
+			<a href="html/2.htm">文件</a>
+		</ul>
+	</b>
+</h2>
+<!--------------------------------------------------------------------------------------------------------------->
+<ul class="ul-1">
+    <h2>Ahou软件</h2>
     <h4>全新的Ahou16将在2023年发布!</h4>
     <ul align="right" style="margin-right: 15px;">
-        <input type="button" style="width:200px; height:50px;font-size:15px;" value="（空）" />
+        <a href=""><input type="button" class="bt-1" value="了解更多" style="opacity: 0.6;cursor: not-allowed;"/></a>
     </ul>
-</ul>   
-<ul class="one" style="background-color:#E6E6FA;text-align:left;padding: 15px;margin-top: 1px;height: 120px;">
-    <h2>新的动态</h2>
+</ul>
+<!--------------------------------------------------------------------------------------------------------------->   
+<ul class="ul-1">
+    <h2>新的动态已发布</h2>
     <h4>点击右侧[了解更多]查看</h4>
     <ul align="right" style="margin-right: 15px;">
-	<a href="html/1.htm"><input  type="button" style="width:200px; height:50px;font-size:15px;" value="了解更多" /></a>
+		<a href="html/1.htm"><input type="button" class="bt-1" value="了解更多" /></a>
     </ul>
-</ul>  
+</ul>
+<!--------------------------------------------------------------------------------------------------------------->  
+<ul class="ul-1">
+    <h2>赞助我们</h2>
+    <h4>呵呵</h4>
+    <ul align="right" style="margin-right: 15px;">
+		<a href="html/1.htm"><input type="button" class="bt-1" value="赞助方案" /></a>
+    </ul>
+</ul>
+<!---------------------------------------------------------------------------------------------------------------> 
 </body>
 </html>
