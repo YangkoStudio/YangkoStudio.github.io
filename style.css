@@ -1,1 +1,62 @@
-/*Css*/
+
+.box{
+    background: #eee;
+    padding: 1% 0;
+    white-space: nowrap;/*文本不会换行，文本会在在同一行上继续*/
+    overflow-y:auto;/*可滑动*/
+}
+/*自定义滚动条的伪对象选择器, CSS 可以隐藏滚动条*/
+.box::-webkit-scrollbar{
+    display: none;
+}
+.box1{
+    width: 98%;
+	height: 200px;
+    margin:0 2% 0 0;
+    background: #708090;
+    display: inline-block;/*行内块元素*/
+}
+
+ul.css-title{
+	background-image: linear-gradient(to right, blue , green , yellow , violet , red);
+	font-size:200%;
+	padding:1% 0 1.4% 1%;
+	margin:0;
+	list-style-type: none;
+	width: 97%;
+}
+img.css-title-logo{
+	width: 5%;
+	height: 5%;
+	float: left;
+	margin-right:0.5%;
+
+	
+}
+div.css-menu{
+	width: 98%;
+	
+	padding:0.3% 0 0.3% 0%;
+	Background-color:#555555;
+	
+}
+
+.b-black {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+    padding: 0 1% 0 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 0 1%;
+    cursor: pointer;
+}
+
+.b-black:hover {
+    background-color: white;
+	border: 2px solid #555555;
+    color: #555555;
+}
+
