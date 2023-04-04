@@ -12,12 +12,21 @@
     padding: 1% 0;
     white-space: nowrap;
     overflow-y:auto;
-	width: 98%;
+	width: 100%;
+	margin-bottom: 0.9%;
+}
+::-webkit-scrollbar {
+    background-color: #86867E;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #262625;
+}
+::-webkit-scrollbar-track {
+    background-color: #86867E;
 }
 
-.box::-webkit-scrollbar{
-    background-color: #555555;
-}
+
+
 .box1{
     width: 100%;
     margin:0 0 0 0;
@@ -28,21 +37,20 @@
 ul.css-title{
 	background-image: linear-gradient(to right, blue , green , yellow , violet , red);
 	font-size:200%;
-	padding:1% 0 1.4% 1%;
+	padding:1% 0 1.1% 1%;
 	margin:0;
-	list-style-type: none;
-	width: 97%;
+	width: 99%;
 }
 img.css-title-logo{
-	width: 5%;
-	height: 5%;
+	width: 4%;
+	height: 4%;
 	float: left;
 	margin-right:0.5%;
 
 	
 }
 div.css-menu{
-	width: 98%;
+	width: 100%;
 	
 	padding:0.3% 0 0.3% 0%;
 	Background-color:#555555;
@@ -71,8 +79,8 @@ div.css-menu{
 	margin: 0 2% 2%;
 	padding: 1% 5% 1% 5%;
     background-color: #708090;
-    color: black;
-    border: 2px solid white;
+    color: #262625;
+    border: 2px solid #262625;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -82,9 +90,35 @@ div.css-menu{
 }
 
 .b-blue:hover {
-    background-color: #708090;
-	border: 2px solid black;
-    color: black;
+    background-color: #262625;
+	border: 2px solid #262625;
+    color: white;
 }
-
+div.css-stone{
+	text-align:center;
+	width: 100%;
+	display:inline
+}
+.css-stone-box{
+	text-align:center;
+	width: 24.55%;
+	background-color: #1B6443;
+	display:inline-block;
+}
+.css-stone-box:hover{
+	text-align:center;
+	width: 24.55%;
+	background-color: #174C4D;
+	display:inline-block;
+}
+.thing{
+	background-color: #636060;
+	width: 100%;
+	padding: 1% 1% 1% 1%;
+	margin-top: 1%;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
 
