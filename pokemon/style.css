@@ -1,0 +1,44 @@
+div.img {
+    border: 2px solid #777;
+    float: left;
+    margin: 5px;
+}
+
+div.img:hover {
+    border: 2px solid #222;
+}
+
+div.img img {
+    height: auto;
+}
+
+h2.title{
+    width: 100%;
+    background-color: dodgerblue;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+div.desc {
+    font-size: x-large;
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.responsive {
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
