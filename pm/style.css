@@ -1,5 +1,5 @@
 *{
-    
+    user-select: none;
 }
 
 body{
@@ -30,6 +30,7 @@ th{
 }
 
 caption{
+    border-radius: 8px 8px 0 0;
     font-size: 25px;
     padding: 21.5px;
     font-weight: bold;
@@ -40,10 +41,18 @@ caption{
 a{
     font-size: 16px;
     text-decoration: none;
-    color: blue;
+    color: black;
 }
 
 a:hover{
-    color: white;
-    background-color: #555;
+    text-decoration: underline solid black;
+    background-color: #777;
+}
+
+.dlbox{
+    width: 100%;
+}
+
+summary{
+    border: 2px solid #555;
 }
