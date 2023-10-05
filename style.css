@@ -1,19 +1,105 @@
-
 *{
-	-webkit-user-select: none;
-        -moz-user-select: none;
-        -o-user-select: none;
-        user-select: none;
-
+    font-family:"Gill Sans", sans-serif;
+    user-select: none;
+    
+}
+#header{
+    white-space:nowrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:white;
+    background-color: #666;
+}
+body{
+    background-color: #666;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#header ul {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+li {
+    list-style-type: none;
 }
 
+#header a {
+    list-style-type: none;
+    position: relative;
+    padding: 20px;
+    font-size: 21px;
+    line-height: 1;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
 
-.box{
-    padding: 1% 0;
+#header a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    border-bottom: 4px solid;
+    transition: 0.2s all linear;
+}
+
+#header a:hover::before {
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition-delay: 0.1s;
+    z-index: -1;
+}
+#header a:focus{
+    color: white;
+}
+.tag-n{
+    color: #666;
+}
+.tag-n img{
+    width: 27px;
+    height: 27px;
+}
+.tag-0{
+    color: black;
+}
+.tag-0 span{
+    color: black;
+	@supports (-webkit-background-clip: text) or (background-clip: text) {
+		background: linear-gradient(to right, red,lime,blue,orangered);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+    }
+}
+.tag-1:hover{color: red;}
+.tag-2:hover{color: lime;}
+.tag-3:hover{color: blue;}
+.tag-4:hover{color: orangered;}
+.tag-5:hover{color: purple;}
+.tag-6:hover{color: brown;}
+#ad{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 70px;
+    text-align: center;
+    padding: 2px;
+    font-style: italic;
+}
+#shows{
     white-space: nowrap;
-    overflow-y:auto;
+    overflow: auto;
 	width: 100%;
-	margin-bottom: 0.9%;
+}
+#shows div{
+    width: 100%;
+    background: #708090;
+    display: inline-block;
 }
 ::-webkit-scrollbar {
     background-color: #86867E;
@@ -24,101 +110,3 @@
 ::-webkit-scrollbar-track {
     background-color: #86867E;
 }
-
-
-
-.box1{
-    width: 100%;
-    margin:0 0 0 0;
-    background: #708090;
-    display: inline-block;
-}
-
-ul.css-title{
-	background-image: linear-gradient(to right, blue , green , yellow , violet , red);
-	font-size:200%;
-	padding:1% 0 1.1% 1%;
-	margin:0;
-	width: 99%;
-}
-img.css-title-logo{
-	width: 4%;
-	height: 4%;
-	float: left;
-	margin-right:0.5%;
-
-	
-}
-div.css-menu{
-	width: 100%;
-	
-	padding:0.3% 0 0.3% 0%;
-	Background-color:#555555;
-	
-}
-
-.b-black {
-    background-color: #555555;
-    color: white;
-    border: 2px solid #555555;
-    padding: 0 1% 0 1%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 0 0 0 1%;
-    cursor: pointer;
-}
-
-.b-black:hover {
-    background-color: white;
-	border: 2px solid #555555;
-    color: #555555;
-}
-.b-blue {
-	margin: 0 2% 2%;
-	padding: 1% 5% 1% 5%;
-    background-color: #708090;
-    color: #262625;
-    border: 2px solid #262625;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-	float: right;
-}
-
-.b-blue:hover {
-    background-color: #262625;
-	border: 2px solid #262625;
-    color: white;
-}
-div.css-stone{
-	text-align:center;
-	width: 100%;
-	display:inline
-}
-.css-stone-box{
-	text-align:center;
-	width: 24.55%;
-	background-color: #1B6443;
-	display:inline-block;
-}
-.css-stone-box:hover{
-	text-align:center;
-	width: 24.55%;
-	background-color: #174C4D;
-	display:inline-block;
-}
-.thing{
-	background-color: #636060;
-	width: 100%;
-	padding: 1% 1% 1% 1%;
-	margin-top: 1%;
-}
-a{
-	color:black;
-	text-decoration: none;
-}
-
