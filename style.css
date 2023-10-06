@@ -37,7 +37,7 @@ li {
     cursor: pointer;
 }
 
-#header a::before {
+#header a::before{
     content: "";
     position: absolute;
     top: 0;
@@ -59,16 +59,14 @@ li {
     color: white;
 }
 .tag-n{
-    color: #666;
-}
-.tag-n img{
-    width: 27px;
-    height: 27px;
+    padding: 7px;
+    background-color: limegreen;
+    color: white;
 }
 .tag-0{
     color: black;
 }
-.tag-0 span{
+.tag-0{
     color: black;
 	@supports (-webkit-background-clip: text) or (background-clip: text) {
 		background: linear-gradient(to right, red,lime,blue,orangered);
@@ -84,11 +82,11 @@ li {
 .tag-5:hover{color: purple;}
 .tag-6:hover{color: brown;}
 #ad{
+    white-space:nowrap;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin-top: 70px;
     text-align: center;
-    padding: 2px;
     font-style: italic;
 }
 #shows{
@@ -98,8 +96,18 @@ li {
 }
 #shows div{
     width: 100%;
-    background: #708090;
+    background: #7b8085;
     display: inline-block;
+}
+#shows a{
+    padding: 10px 40px 10px 40px;
+    background-color: white;
+    float: right;
+    margin: 0 10px 10px 0;
+}
+#show a:hover{
+    background-color: #e66465;
+    transition: 0.2s all linear;
 }
 ::-webkit-scrollbar {
     background-color: #86867E;
@@ -110,3 +118,41 @@ li {
 ::-webkit-scrollbar-track {
     background-color: #86867E;
 }
+#box{
+}
+#box table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse
+}
+#box td{
+    border: 1px soild black;
+    background-color: #86867E;
+}
+
+#sth video{
+    background-color: #454647;
+}
+#sth h3{
+    text-align: center;
+}
+#sth img{
+    float: left;
+    width: 106px;
+    height: 144px;
+}
+#sth p{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+#footer{
+    background-color: #262625;
+}
+
+.test-iii {
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    }
