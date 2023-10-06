@@ -68,12 +68,10 @@ li {
 }
 .tag-0{
     color: black;
-	@supports (-webkit-background-clip: text) or (background-clip: text) {
-		background: linear-gradient(to right, red,lime,blue,orangered);
-		-webkit-background-clip: text;
-		background-clip: text;
-		color: transparent;
-    }
+    background: linear-gradient(to right, red,lime,blue,orangered);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 .tag-1:hover{color: red;}
 .tag-2:hover{color: lime;}
