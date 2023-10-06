@@ -103,7 +103,7 @@ li {
     float: right;
     margin: 0 10px 10px 0;
 }
-#show a:hover{
+#shows a:hover{
     background-color: #e66465;
     transition: 0.2s all linear;
 }
