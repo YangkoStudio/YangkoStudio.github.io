@@ -1,7 +1,9 @@
 *{
     font-family:"Gill Sans", sans-serif;
     user-select: none;
-    
+}
+body{
+    margin: 0;
 }
 #header{
     white-space:nowrap;
@@ -26,7 +28,6 @@ a{
 li {
     list-style-type: none;
 }
-
 #header a {
     list-style-type: none;
     position: relative;
@@ -47,7 +48,6 @@ li {
     border-bottom: 4px solid;
     transition: 0.2s all linear;
 }
-
 #header a:hover::before {
     width: 100%;
     top: 0;
@@ -116,18 +116,23 @@ li {
 ::-webkit-scrollbar-track {
     background-color: #86867E;
 }
-#box{
-}
 #box table{
     width: 100%;
-    background-color: white;
-    border-collapse: collapse
+    border: 1px soild black;
+    background-color: #222;
 }
 #box td{
-    border: 1px soild black;
     background-color: #86867E;
 }
-
+#box a{
+    float: right;
+    padding: 5px 40px 5px 40px;
+    background-color: white;
+}
+#box a:hover{
+    background-color: gold;
+    transition: 0.2s all linear;
+}
 #sth video{
     background-color: #454647;
 }
@@ -140,12 +145,16 @@ li {
     height: 144px;
 }
 #sth p{
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
+    -webkit-column-count: 3; 
+    -moz-column-count: 3; 
     column-count: 3;
 }
 #footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
     background-color: #262625;
+    text-align: center;
 }
 
 .test-iii {
@@ -154,3 +163,7 @@ li {
     background-clip: text;
     color: transparent;
     }
+
+details{
+    margin-left: 10px;
+}
