@@ -34,37 +34,38 @@ li {
     padding: 20px;
     font-size: 21px;
     line-height: 1;
-    transition: 0.2s all linear;
+    transition: 0.25s all linear;
     cursor: pointer;
 }
-
+#header a::after{
+    
+}
 #header a::before{
     content: "";
     position: absolute;
+    
     top: 0;
-    left: 100%;
+    left: 50%;
     width: 0;
     height: 100%;
     border-bottom: 4px solid;
-    transition: 0.2s all linear;
+    transition: 0.25s all linear;
 }
 #header a:hover::before {
     width: 100%;
     top: 0;
     left: 0;
-    transition-delay: 0.1s;
-    z-index: -1;
 }
 #header a:focus{
+    transition: 0s all linear;
     color: white;
 }
 .tag-n{
     padding: 7px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px #444;
     background-color: limegreen;
     color: white;
-}
-.tag-0{
-    color: black;
 }
 .tag-0{
     color: black;
@@ -73,12 +74,20 @@ li {
     background-clip: text;
     color: transparent;
 }
+span:hover{
+
+}
 .tag-1:hover{color: red;}
 .tag-2:hover{color: lime;}
 .tag-3:hover{color: blue;}
 .tag-4:hover{color: orangered;}
 .tag-5:hover{color: purple;}
 .tag-6:hover{color: brown;}
+.tag-lo:hover{color: white;}
+
+
+
+
 #ad{
     white-space:nowrap;
     border-top: 2px solid black;
