@@ -29,26 +29,21 @@ li {
     list-style-type: none;
 }
 #header a {
-    list-style-type: none;
     position: relative;
-    padding: 20px;
-    font-size: 21px;
-    line-height: 1;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 2;
     transition: 0.25s all linear;
     cursor: pointer;
-}
-#header a::after{
-    
 }
 #header a::before{
     content: "";
     position: absolute;
-    
     top: 0;
     left: 50%;
     width: 0;
     height: 100%;
-    border-bottom: 4px solid;
+    border-bottom: 3px solid;
     transition: 0.25s all linear;
 }
 #header a:hover::before {
@@ -59,35 +54,33 @@ li {
 #header a:focus{
     transition: 0s all linear;
     color: white;
+    font-size: 18px;
+    transition: 0.25s all linear;
 }
 .tag-n{
-    padding: 7px;
+    padding: 6px;
     border-radius: 3px;
-    box-shadow: 2px 2px 2px 1px #444;
+    box-shadow: 2px 2px 2px 1px #555;
     background-color: limegreen;
     color: white;
 }
 .tag-0{
     color: black;
-    background: linear-gradient(to right, red,lime,blue,orangered);
+    background: linear-gradient(to right, red,green,blue,orangered);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-span:hover{
+span{
 
 }
 .tag-1:hover{color: red;}
-.tag-2:hover{color: lime;}
+.tag-2:hover{color: green;}
 .tag-3:hover{color: blue;}
 .tag-4:hover{color: orangered;}
 .tag-5:hover{color: purple;}
 .tag-6:hover{color: brown;}
 .tag-lo:hover{color: white;}
-
-
-
-
 #ad{
     white-space:nowrap;
     border-top: 2px solid black;
@@ -161,7 +154,6 @@ span:hover{
 #footer{
     bottom: 0;
     width: 100%;
-    position: fixed;
     background-color: #262625;
     text-align: center;
 }
@@ -176,3 +168,44 @@ span:hover{
 details{
     margin-left: 10px;
 }
+
+#sets{
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    background-color: #777;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form{
+    font-size:0px;
+}
+input[type=search]{
+    padding: 4px;
+    border: none;
+	box-shadow:none;
+	outline: none;
+    border-radius: 16px 0 0 16px;
+    text-align: center;
+}
+input[type=submit]{
+    padding: 4px;
+    border: none;
+	box-shadow:none;
+	outline: none;
+    border-radius: 0 16px 16px 0;
+    background-color: orangered;
+}
+input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: url("logo.jpg") no-repeat center;
+    background-size: 100% 100%;
+    color:rgba(0,0,0,0);
+    }
