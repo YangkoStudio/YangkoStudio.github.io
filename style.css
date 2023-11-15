@@ -74,12 +74,12 @@ li {
 span{
 
 }
-.tag-1:hover{color: red;}
-.tag-2:hover{color: green;}
-.tag-3:hover{color: blue;}
-.tag-4:hover{color: orangered;}
-.tag-5:hover{color: purple;}
-.tag-6:hover{color: brown;}
+.t1:hover{color: red;}
+.t2:hover{color: green;}
+.t3:hover{color: blue;}
+.t4:hover{color: orangered;}
+.t5:hover{color: purple;}
+.t6:hover{color: brown;}
 .tag-lo:hover{color: white;}
 #ad{
     white-space:nowrap;
@@ -109,15 +109,9 @@ span{
     background-color: #e66465;
     transition: 0.2s all linear;
 }
-::-webkit-scrollbar {
-    background-color: #86867E;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #262625;
-}
-::-webkit-scrollbar-track {
-    background-color: #86867E;
-}
+::-webkit-scrollbar{background-color: #86867E;}
+::-webkit-scrollbar-thumb{background-color: #262625;}
+::-webkit-scrollbar-track{background-color: #86867E;}
 #box table{
     width: 100%;
     border: 1px soild black;
@@ -157,38 +151,12 @@ span{
     background-color: #262625;
     text-align: center;
 }
-
-.test-iii {
-    background: linear-gradient(to right, red, blue);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    }
-
-details{
-    margin-left: 10px;
-}
-
-#sets{
-    width: 100%;
-    height: 100%;
-    opacity: 0.95;
-    background-color: #777;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-form{
-    font-size:0px;
-}
 input[type=search]{
     padding: 4px;
     border: none;
 	box-shadow:none;
 	outline: none;
-    border-radius: 16px 0 0 16px;
+    border-radius: 16px;
     text-align: center;
 }
 input[type=submit]{
@@ -196,7 +164,7 @@ input[type=submit]{
     border: none;
 	box-shadow:none;
 	outline: none;
-    border-radius: 0 16px 16px 0;
+    border-radius: 16px;
     background-color: orangered;
 }
 input::-webkit-search-cancel-button {
@@ -209,3 +177,16 @@ input::-webkit-search-cancel-button {
     background-size: 100% 100%;
     color:rgba(0,0,0,0);
     }
+
+
+summary{
+    background-color: #bbb;
+    border-radius: 16px;
+}
+
+details{
+    background-color: #bbb;
+    border-radius: 16px;
+    margin: 25px;
+    padding: 10px;
+}
