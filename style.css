@@ -1,10 +1,5 @@
-*{
-    font-family:"Gill Sans", sans-serif;
-    user-select: none;
-}
-body{
-    margin: 0;
-}
+*{font-family:"Gill Sans", sans-serif;user-select: none;}
+body{margin: 0;background-color: #777;}
 #header{
     white-space:nowrap;
     position: fixed;
@@ -13,26 +8,18 @@ body{
     background-color:white;
     background-color: #666;
 }
-body{
-    background-color: #666;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
+a{text-decoration: none;color: black;}
 #header ul {
     width: 100%;
     display: flex;
     position: relative;
 }
-li {
-    list-style-type: none;
-}
+li{list-style-type: none;}
 #header a {
     position: relative;
-    padding: 10px;
+    padding: 8px 10px 8px 10px;
     font-size: 18px;
-    line-height: 2;
+    line-height: 1;
     transition: 0.25s all linear;
     cursor: pointer;
 }
@@ -57,30 +44,29 @@ li {
     font-size: 18px;
     transition: 0.25s all linear;
 }
-.tag-n{
-    padding: 6px;
+.a1{
+    padding: 4px;
     border-radius: 3px;
     box-shadow: 2px 2px 2px 1px #555;
     background-color: limegreen;
     color: white;
 }
-.tag-0{
+.a2{
+    font-weight: 500;
+    padding-left: 5px;
     color: black;
     background: linear-gradient(to right, red,green,blue,orangered);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-span{
-
-}
-.t1:hover{color: red;}
-.t2:hover{color: green;}
-.t3:hover{color: blue;}
-.t4:hover{color: orangered;}
-.t5:hover{color: purple;}
-.t6:hover{color: brown;}
-.tag-lo:hover{color: white;}
+.t0:hover{color: #ffffff;}
+.t1:hover{color: #ff0000;}
+.t2:hover{color: #00ff7f;}
+.t3:hover{color: #0000ff;}
+.t4:hover{color: #ff4500;}
+.t5:hover{color: #800080;}
+.t6:hover{color: #a52a2a;}
 #ad{
     white-space:nowrap;
     border-top: 2px solid black;
@@ -96,7 +82,7 @@ span{
 }
 #shows div{
     width: 100%;
-    background: #7b8085;
+    background: #555;
     display: inline-block;
 }
 #shows a{
@@ -109,9 +95,7 @@ span{
     background-color: #e66465;
     transition: 0.2s all linear;
 }
-::-webkit-scrollbar{background-color: #86867E;}
-::-webkit-scrollbar-thumb{background-color: #262625;}
-::-webkit-scrollbar-track{background-color: #86867E;}
+/*::-webkit-scrollbar{display: none;}*/
 #box table{
     width: 100%;
     border: 1px soild black;
