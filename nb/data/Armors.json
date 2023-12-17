@@ -1,0 +1,16 @@
+[
+null,
+{"id":1,"atypeId":1,"description":"大雄穿的普通黄色衣服。\n不要期待他有任何的防御效果。","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"大雄的衣服","note":"","params":[0,0,0,2,0,0,0,0],"price":0},
+{"id":2,"atypeId":1,"description":"圣奈的制服。\n不要期待他有任何的防御效果。","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"水手服","note":"","params":[0,0,0,2,0,0,0,0],"price":0},
+{"id":3,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":4,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"-------補助具-----------","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":5,"atypeId":3,"description":"以降低防御力为代价来强化所有的武器。","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"强化零件","note":"","params":[0,0,5,-5,0,0,0,0],"price":0},
+{"id":6,"atypeId":3,"description":"受到攻击时会反击，但武器攻击力会降低。","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"反弹斗篷","note":"","params":[0,0,-2,0,0,0,0,0],"price":0},
+{"id":7,"atypeId":3,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"防毒面具","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":8,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":9,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":10,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"--------防具-----------","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":11,"atypeId":2,"description":"使用高分子材料制作的防弹衣。","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"防弹衣","note":"","params":[0,0,0,4,0,0,0,0],"price":0},
+{"id":12,"atypeId":2,"description":"使用金属强化过的夹克。","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"金属夹克","note":"","params":[0,0,0,9,0,0,0,0],"price":0},
+{"id":13,"atypeId":2,"description":"耐冲击构造的护胸。","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"装甲护胸","note":"","params":[0,0,0,14,0,0,0,0],"price":0}
+]
