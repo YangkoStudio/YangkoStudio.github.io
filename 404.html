@@ -1,74 +1,55 @@
 <!DOCTYPE html>
-<html>
-<!--------------------------------------------------------------------------------------------------------------->
-<style>
-        a{
-			padding:0 20px;
-			text-decoration: none;
-		}
-        a:link{
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-        a:visited{
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-        a:hover{
-			color: blue;
-			background-color: transparent;
-			text-decoration: none;
-		}
-        a:active{
-			color: black;
-			background-color: transparent;
-			text-decoration: none;
-		}
-    	*{
-			margin: 0px;
-		}
-   		ul.ul-1{
-			border-style:solid;
-			border-width:2px;
-			background-color:#E6E6FA;
-			text-align:left;
-			padding: 15px;
-			margin-top: 5px;
-			margin-right:5px;
-			margin-left:5px;
-			height: 120px;
-			border-radius: 4px;
-		}
-		input.bt-1{
-			text-align: center;
-		 	width:200px;
-		 	height:30px;
-		 	font-size:15px;
-		 	margin-top:30px;
-		 	margin-right:10px;
-			border: 2px solid #555555;
-			border-radius: 4px;
-		}
-		
-		.bt-1:hover {  background-color: #555555;
-  color: white;}
- </style>
-<!--------------------------------------------------------------------------------------------------------------->
-<head>
-    <title>Yangko Studio</title>
-</head>
-<body>
-<!--------------------------------------------------------------------------------------------------------------->
-<ul class="ul-1">
-    <h1>错误</h1>
-    <hr>
-    <h3>404,未找到</h3>
-    <ul align="right" style="margin-right: 15px;">
-		<a href="https://yangkostudio.github.io/"><input type="button" class="bt-1" value="主页" /></a>
-    </ul>
-</ul>
-<!---------------------------------------------------------------------------------------------------------------> 
-</body>
+<html lang="zh-cmn-Hans">
+	<head>
+    	<title>404</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <style>
+			*{
+				font-family:"Gill Sans", sans-serif;
+				user-select: none;
+			}
+			div{
+				margin: 0 auto;
+				background-color: #555;
+				padding: 2rem;
+				border-radius: 8px;
+			}
+			h2{
+				text-align: center;
+			}
+			p{
+				text-align: center;
+			}
+			input{
+            	margin: 0 auto;
+				padding: 0.3rem 5rem 0.3rem 5rem;
+				border-radius: 16px;
+				border:0;
+				outline:none;
+			}
+			input:hover{
+				transition: 0.3s all linear;
+				background-color: firebrick;
+			}
+			table{
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2>404 Not Found</h2>
+			<p>错误：请求的网页不存在！</p>
+			<table>
+				<tr>
+					<td align="center">
+						<a href="https://yangkostudio.github.io/"><input type="button" value="主页"></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
 </html>
