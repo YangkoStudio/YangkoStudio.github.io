@@ -4,8 +4,17 @@
     1000
 */
 *{
+    user-select: none;
     font-family:"Trebuchet MS", Verdana, sans-serif;
 }
+ ::-webkit-scrollbar
+ {
+    width: 0;
+    height: 0.5rem;
+    background-color:#F5F5F5;
+ }
+ ::-webkit-scrollbar-track{background-color:#F5F5F5;}
+ ::-webkit-scrollbar-thumb{background-color:#333;}
 body{
     margin: 0;
     background-color: #777;
@@ -16,7 +25,7 @@ body{
     top: 0;
     width: 100%;
     background-color:white;
-    background-color: #555;
+    background-color: #444;
 }
 a{
     text-decoration: none;
@@ -129,6 +138,9 @@ table{
     border-top: 1px solid black;
 }
 table td{
-    padding: 1em;
     border-bottom: 1px solid black;
+}
+td img{
+    width: 2rem;
+    height: 2rem;
 }
