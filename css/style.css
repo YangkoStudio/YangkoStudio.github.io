@@ -42,7 +42,7 @@ li{list-style-type: none;}
     padding: 8px 10px 8px 10px;
     font-size: 18px;
     line-height: 1;
-    transition: 0.15s all linear;
+    transition: 0.2s all linear;
     cursor: pointer;
 }
 #header a::before{
@@ -53,7 +53,7 @@ li{list-style-type: none;}
     width: 0;
     height: 100%;
     border-bottom: 3px solid;
-    transition: 0.15s all linear;
+    transition: 0.2s all linear;
 }
 #header a:hover::before {
     width: 100%;
@@ -64,7 +64,7 @@ li{list-style-type: none;}
     transition: 0s all linear;
     color: white;
     font-size: 18px;
-    transition: 0.15s all linear;
+    transition: 0.2s all linear;
 }
 .a1{
     padding: 4px;
@@ -126,7 +126,7 @@ li{list-style-type: none;}
 }
 #shows a:hover{
     background-color: #e66465;
-    transition: 0.15s all linear;
+    transition: 0.2s all linear;
 }
 #sth{
     overflow: auto;
@@ -152,7 +152,7 @@ li{list-style-type: none;}
 }
 #box a:hover{
     color: white;
-    transition: 0.15s all linear;
+    transition: 0.2s all linear;
 }
 table{
     border-collapse: collapse;
