@@ -74,7 +74,6 @@ li{list-style-type: none;}
 }
 #footer{
     white-space:nowrap;
-    position: fixed;
     bottom: 0;
     padding: 1rem;
     width: 100%;
