@@ -10,3 +10,6 @@
     }
 }
 */
+function about(){
+    alert("Yangko Studio Website\nVersion:1000");
+}
