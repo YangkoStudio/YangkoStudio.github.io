@@ -76,7 +76,7 @@ h2{
   background-color: white;
 }
 .card:hover {
-  box-shadow: 5px 5px #000;
+  border: 1px soild black;
 }
   .card img {
   width: 150px;
@@ -119,4 +119,5 @@ li .logo{
   text-decoration: none;
   padding: 4.5px 11px 4.5px 11px;
 }
+
 
