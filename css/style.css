@@ -5,20 +5,17 @@
 */
 *{
     user-select: none;
-    font-family:"Trebuchet MS", Verdana, sans-serif;
-}
+    font-family:"Trebuchet MS", Verdana, sans-serif;}
  ::-webkit-scrollbar
  {
     width: 0;
     height: 0.5rem;
-    background-color:#F5F5F5;
- }
+    background-color:#F5F5F5;}
  ::-webkit-scrollbar-track{background-color:#F5F5F5;}
  ::-webkit-scrollbar-thumb{background-color:#333;}
 body{
     margin: 0;
-    background-color: #888;
-}
+    background-color: #888;}
 #header{
     white-space:nowrap;
     position: fixed;
@@ -26,72 +23,56 @@ body{
     opacity: 0.9;
     width: 100%;
     background-color:#444;
-    background-image: linear-gradient(to right, #444 , #222);
-}
+    background-image: 
+    linear-gradient(to right, #444 , #222);}
 a{
     text-decoration: none;
-    color: black;
-}
+    color: black;}
 #menu{
     display: none;
     position: fixed;
-    background-color: white;
+    background-color: rgb(204, 204, 204);
     border-radius: 0 0 10px 0;
     padding: 1rem;
-    opacity: 0.9;
-    margin-top: 0.1rem;
+    opacity: 0.95;
+    margin-top: 0.1rem;}
+#menu p{
+    font-style: italic;
 }
-#menu .z{
-    display: inline-block;
-}
-#menu h3{
-    
-    color: rgb(62, 67, 109);
-}
+#menu .z{display: inline-block;}
+#menu h3{color: rgb(22, 30, 102);}
 #menu img{
     width: 1.9rem;
-    margin: auto;
-}
-
-#menu li{
-    
-}
+    margin: auto;}
 #menu a {
     position: relative;
     padding: 8px 10px 8px 10px;
     font-size: 18px;
     line-height: 1;
-    transition: 0.3s all linear;
-    cursor: pointer;
-}
+    transition: 0.2s all linear;
+    cursor: pointer;}
 #menu a::before{
     content: "";
     position: absolute;
     top: 0;
-    left: 0%;
+    left: 50%;
     width: 0;
     height: 100%;
     border-bottom: 2px solid;
-    transition: 0.3s all linear;
-}
+    transition: 0.2s all linear;}
 #menu a:hover::before {
     width: 100%;
     top: 0;
-    left: 0;
-}
+    left: 0%;}
 #menu a:focus{
     transition: 0s all linear;
     color: white;
     font-size: 18px;
-    transition: 0.3s all linear;
-}
-
-
+    transition: 0.2s all linear;}
 #header ul {
     width: 100%;
     display: flex;
-    position: relative;
-}
+    position: relative;}
 li{list-style-type: none;}
 #header a {
     position: relative;
@@ -99,29 +80,22 @@ li{list-style-type: none;}
     font-size: 18px;
     line-height: 1;
     transition: 0.2s all linear;
-    cursor: pointer;
-}
+    cursor: pointer;}
 #header a::before{
     content: "";
     position: absolute;
-    top: 0;
-    left: 50%;
-    width: 0;
-    height: 100%;
+    top: 0;left: 50%;
+    width: 0;height: 100%;
     border-bottom: 3px solid;
-    transition: 0.2s all linear;
-}
+    transition: 0.2s all linear;}
 #header a:hover::before {
     width: 100%;
-    top: 0;
-    left: 0;
-}
+    top: 0;left: 0;}
 #header a:focus{
     transition: 0s all linear;
     color: white;
     font-size: 18px;
-    transition: 0.2s all linear;
-}
+    transition: 0.2s all linear;}
 input::-webkit-search-cancel-button {
     -webkit-appearance: none;
     position: relative;
@@ -130,8 +104,7 @@ input::-webkit-search-cancel-button {
     border-radius: 50%;
     background: url("../image/svg/XMark.svg") no-repeat center;
     background-size: 100% 100%;
-    color:rgba(0,0,0,0);
-}
+    color:rgba(0,0,0,0);}
 input[type=search]::-ms-clear {
     appearance: none;
     position: relative;
@@ -140,45 +113,34 @@ input[type=search]::-ms-clear {
     border-radius: 50%;
     background: url("../image/svg/XMark.svg") no-repeat center;
     background-size: 100% 100%;
-    color:rgba(0,0,0,0);
-}
-input{
-    outline: none;
-}
+    color:rgba(0,0,0,0);}
+input{outline: none;}
 #header form{
     font-size: 0;
     background-color: white;
-    border-radius: 16px;
-}
+    border-radius: 16px;}
 #header input[type=button]{
     padding: 0 2rem 0 2rem;
     border: 0;
-    border-radius: 16px;
-}
+    border-radius: 16px;}
 #header input[type=button]:focus{
-    border: 0;
-}
-#header input[type=button]:hover{
-    background: linear-gradient(to right,rgb(185, 233, 95),rgb(156, 68, 36));
-    transition: 0.2s all linear;
-}
+    background-color: rgb(44, 124, 71);
+    transition: 0.2s all linear;}
 #header input[type=search]{
     background-color: white;
     border: 0;
-    border-radius: 16px 0 0 16px;
-}
-
+    border-radius: 16px 0 0 16px;}
 #header input[type=submit]{
     background-color: orangered;
     border: 0;
-    border-radius: 0 16px 16px 0;
-}
+    border-radius: 0 16px 16px 0;}
+    #header input[type=submit]:hover{
+        background-color: rgb(23, 66, 131);}
 .a1{
     padding: 4px;
     border-radius: 3px;
     background-color: peru;
-    color: white;
-}
+    color: white;}
 #footer{
     opacity: 0.9;
     white-space:nowrap;
@@ -186,8 +148,7 @@ input{
     bottom: 0;
     width: 100%;
     background-color: #333;
-    color: white;
-}
+    color: white;}
 .a2{
     font-weight: 500;
     padding-left: 5px;
@@ -195,8 +156,7 @@ input{
     background: linear-gradient(to right,blue,orangered);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
-}
+    color: transparent;}
 .t0:hover{color: #ffffff;}
 .t1:hover{color: #ff0000;}
 .t2:hover{color: #00ff7f;}
@@ -210,60 +170,43 @@ input{
     border-bottom: 1px solid black;
     margin-top: 3.2rem;
     text-align: center;
-    font-style: italic;
-}
+    font-style: italic;}
 #box{margin-top: 1rem;}
 #shows{
     white-space: nowrap;
     overflow: auto;
-	width: 100%;
-}
+	width: 100%;}
 #shows div{
     width: 100%;
     background: #666;
-    display: inline-block;
-}
-#shows td,th{
-    width: 100%;
-}
+    display: inline-block;}
+#shows td,th{width: 100%;}
 #shows a{
     padding: 0.5rem 2rem 0.5rem 2rem;
     background-color: white;
     border-radius: 4px;
     float: right;
-    margin: 0 5rem 5rem 0;
-}
+    margin: 0 5rem 5rem 0;}
 #shows a:hover{
     background-color: #e66465;
-    transition: 0.2s all linear;
-}
+    transition: 0.2s all linear;}
 #sth{
     margin-top: 1rem;
     overflow: auto;
-	width: 100%;
-}
+	width: 100%;}
 #sth div{
-    height: 10%;
-    float: left;
+    width: 50%;height: 10%;
     overflow:auto;
-    width: 50%;
     background: #444;
-    display: inline-block;
-}
-#sth p{
-    font-size: 10px;
-}
+    display: inline-block;}
+#sth p{font-size: 10px;}
 #sth img{
     height: 100%;
-    float: left;
-}
-#box a{
-    float: right;
-}
+    float: left;}
+#box a{float: right;}
 #box a:hover{
     color: white;
-    transition: 0.2s all linear;
-}
+    transition: 0.2s all linear;}
 #sth,#box table{
     border-collapse: collapse;
     width: 100%;
@@ -273,17 +216,7 @@ input{
 }
 #sth,#box td,th{
     border-left: 1px solid black;
-    border-top: 1px solid black;
-}
-#box img{
-    width: 2rem;
-    height: 2rem;
-}
-#sth img{
-    width: 15rem;
-    height: 8rem;
-}
-
-#txt{
-    float: right;
-}
+    border-top: 1px solid black;}
+#box img{width: 2rem;height: 2rem;}
+#sth img{width: 15rem;height: 8rem;}
+#txt{float: right;}

@@ -13,7 +13,9 @@
         <link rel="apple-touch-icon" href="image/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    
     </head>
     <body onload="startTime()">
         <div id="header">
@@ -32,9 +34,9 @@
                 <li><a class="t5" href="data/settings.htm"><span>设置</span></a></li>
                 <li><a class="t6" href="data/account/html/log_in.htm"><span>用户</span></a></li>
                 <li>
-                    <form action="" method="POST">
-                        <input type="search" placeholder="搜索内容..." name="search">
-                        <input type="submit">
+                    <form onsubmit="return search()">
+                        <input type="search" class="search" placeholder="搜索内容...">
+                        <input type="submit" value="搜索">
                     </form>
                 </li>
                 
@@ -161,6 +163,8 @@
                 </tr>
             </table>
         </div>
+
+
 
         <div id="footer">
             <li>

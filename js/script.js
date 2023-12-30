@@ -36,11 +36,49 @@ function popDiv(){
 	var popDiv = document.getElementById("menu");
 	var getDisplay = document.getElementById("menu").style.display;
 	if(getDisplay == 'block'){
-		popDiv.style.display = "none";
+		popDiv.style.display = "none";	
 	}
 	else{
 		popDiv.style.display = "block";
 	}
 	
 }
+function fadeIn(element,speed){
+    if(element.style.opacity !=1){
+        var speed = speed || 30 ;
+        var num = 0;
+        var st = setInterval(function(){
+        num++;
+        element.style.opacity = num/10;
+        if(num>=10)  {  clearInterval(st);  }
+        },speed);
+    }
+}
 
+function fadeOut(element){
+    if(element.style.opacity !=0){
+        var speed = speed || 30 ;
+        var num = 10;
+        var st = setInterval(function(){
+        num--;
+        element.style.opacity = num / 10 ;
+        if(num<=0)  {   clearInterval(st);  }
+        },speed);
+    }
+
+}
+
+function btnIn(){
+    fadeIn(menu,100);
+}
+
+function btnOut(){
+    fadeOut(menu,100);
+}
+function search() {
+	if (document.querySelector(".search").value != "") {
+		window.location.href = "https://cn.bing.com/search?q=" + document.querySelector(".search").value;
+		document.querySelector(".search").value = "";
+	}
+	return false;
+}
