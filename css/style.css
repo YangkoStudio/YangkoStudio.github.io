@@ -33,6 +33,7 @@ a{
     color: black;
 }
 #menu{
+    display: none;
     position: fixed;
     background-color: white;
     border-radius: 0 0 10px 0;
@@ -60,18 +61,18 @@ a{
     padding: 8px 10px 8px 10px;
     font-size: 18px;
     line-height: 1;
-    transition: 0.2s all linear;
+    transition: 0.3s all linear;
     cursor: pointer;
 }
 #menu a::before{
     content: "";
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 0%;
     width: 0;
     height: 100%;
     border-bottom: 2px solid;
-    transition: 0.2s all linear;
+    transition: 0.3s all linear;
 }
 #menu a:hover::before {
     width: 100%;
@@ -82,7 +83,7 @@ a{
     transition: 0s all linear;
     color: white;
     font-size: 18px;
-    transition: 0.2s all linear;
+    transition: 0.3s all linear;
 }
 
 
@@ -121,31 +122,56 @@ li{list-style-type: none;}
     font-size: 18px;
     transition: 0.2s all linear;
 }
+input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: url("../image/svg/XMark.svg") no-repeat center;
+    background-size: 100% 100%;
+    color:rgba(0,0,0,0);
+}
+input[type=search]::-ms-clear {
+    appearance: none;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: url("../image/svg/XMark.svg") no-repeat center;
+    background-size: 100% 100%;
+    color:rgba(0,0,0,0);
+}
+input{
+    outline: none;
+}
 #header form{
+    font-size: 0;
     background-color: white;
     border-radius: 16px;
 }
 #header input[type=button]{
+    padding: 0 2rem 0 2rem;
     border: 0;
     border-radius: 16px;
 }
+#header input[type=button]:focus{
+    border: 0;
+}
 #header input[type=button]:hover{
-    background-color: #e66465;
+    background: linear-gradient(to right,rgb(185, 233, 95),rgb(156, 68, 36));
     transition: 0.2s all linear;
 }
-#header input[type=button]:hover{
-    border: 0;
-    border-radius: 16px;
-}
 #header input[type=search]{
+    background-color: white;
     border: 0;
-    border-radius: 16px;
+    border-radius: 16px 0 0 16px;
 }
 
 #header input[type=submit]{
     background-color: orangered;
     border: 0;
-    border-radius: 16px;
+    border-radius: 0 16px 16px 0;
 }
 .a1{
     padding: 4px;

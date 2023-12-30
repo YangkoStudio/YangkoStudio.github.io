@@ -10,9 +10,6 @@
     }
 }
 */
-function about(){
-    alert("Yangko Studio Website\nVersion:1000");
-}
 function startTime()
 {
 	var today=new Date()
@@ -36,18 +33,14 @@ function checkTime(i)
 	return i
 }
 function popDiv(){
-	// 通过唯一id值获取div元素
-	var popBox = document.getElementById("menu");
-	var popLayer = document.getElementById("popLayer");
-
-	// 控制两个div的显示与隐藏
-	popBox.style.display = "block";
-	popLayer.style.display = "block";
+	var popDiv = document.getElementById("menu");
+	var getDisplay = document.getElementById("menu").style.display;
+	if(getDisplay == 'block'){
+		popDiv.style.display = "none";
+	}
+	else{
+		popDiv.style.display = "block";
+	}
+	
 }
 
-function closePop(){
-	// 通过唯一id值获取弹出窗口元素
-	let popDiv = document.getElementById("menu");
-
-	popDiv.style.display = "none";
-}
