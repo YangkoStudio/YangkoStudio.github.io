@@ -13,9 +13,14 @@
         <link rel="apple-touch-icon" href="image/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
     </head>
     <body onload="startTime()">
-        <div id="header"><ul>
+        <div id="header">
+            <ul>
+                <li>
+                    <input type="button" onclick="popDiv()" value="菜单">
+                </li>
                 <li><a class="t0" href="index.htm">
                     <span class="a1">YK</span>
                     <span class="a2">Yangko Studio</span>
@@ -26,9 +31,84 @@
                 <li><a class="t4" href="data/info.htm"><span>信息</span></a></li>
                 <li><a class="t5" href="data/settings.htm"><span>设置</span></a></li>
                 <li><a class="t6" href="data/account/html/log_in.htm"><span>用户</span></a></li>
-        </ul></div>
+                <li>
+                    <form action="" method="POST">
+                        <input type="search" name="search">
+                        <input type="submit">
+                    </form>
+                </li>
+                
+                </ul>
+        </div>
+        <div id="menu">
+            <a href="#" onclick="closePop()">关闭菜单</a>
+            <div>
+                <div class="z">
+                    <table>
+                        <tr>
+                            <td><img src="image/svg/Home.svg"></td>
+                            <td><h3>主页</h3></td>
+                        </tr>
+                    </table>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                </div>
+                <div class="z">
+                    <table>
+                        <tr>
+                            <td><img src="image/svg/LightBulb.svg"></td>
+                            <td><h3>新闻</h3></td>
+                        </tr>
+                    </table>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                </div>
+                <div class="z">
+                    <table>
+                        <tr>
+                            <td><img src="image/svg/FolderOpen.svg"></td>
+                            <td><h3>文件</h3></td>
+                        </tr>
+                    </table>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                </div>
+            </div>
+            <div>
+                <div class="z">
+                    <table>
+                        <tr>
+                            <td><img src="image/svg/InformationCircle.svg"></td>
+                            <td><h3>信息</h3></td>
+                        </tr>
+                    </table>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                </div>
+                <div class="z">
+                    <table>
+                        <tr>
+                            <td><img src="image/svg/Cog8Tooth.svg"></td>
+                            <td><h3>设置</h3></td>
+                        </tr>
+                    </table>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                </div>
+                <div class="z">
+                    <table>
+                        <tr>
+                            <td><img src="image/svg/UserCircle.svg"></td>
+                            <td><h3>用户</h3></td>
+                        </tr>
+                    </table>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                    <p><a href="#">aaaaaaaaaa</a></p>
+                </div>
+            </div>
+        </div>
         <div id="ad">
-            <p>[NEWS]Yangko Studio New Project</p>
+            <p>1001</p>
         </div>
         <div id="shows">
             <div>
@@ -77,38 +157,7 @@
                         <img src="image/ahou-2024-inpliod.png">
                     </td>
                     <td>
-                        诗曰：
- 
-混沌未分天地乱，茫茫渺渺无人见。
-自从盘古破鸿蒙，开辟从兹清浊辨。
-覆载群生仰至仁，发明万物皆成善。
-欲知造化会元功，须看《西游释厄传》。
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="image/ahou-2024-inpliod.png">
-                    </td>
-                    <td>
-                        诗曰：
- 
-混沌未分天地乱，茫茫渺渺无人见。
-自从盘古破鸿蒙，开辟从兹清浊辨。
-覆载群生仰至仁，发明万物皆成善。
-欲知造化会元功，须看《西游释厄传》。
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="image/ahou-2024-inpliod.png">
-                    </td>
-                    <td>
-                        诗曰：
- 
-混沌未分天地乱，茫茫渺渺无人见。
-自从盘古破鸿蒙，开辟从兹清浊辨。
-覆载群生仰至仁，发明万物皆成善。
-欲知造化会元功，须看《西游释厄传》。
+                        全新Ahou Inpliod
                     </td>
                 </tr>
             </table>

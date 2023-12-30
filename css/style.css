@@ -32,6 +32,60 @@ a{
     text-decoration: none;
     color: black;
 }
+#menu{
+    position: fixed;
+    background-color: white;
+    border-radius: 0 0 10px 0;
+    padding: 1rem;
+    opacity: 0.9;
+    margin-top: 0.1rem;
+}
+#menu .z{
+    display: inline-block;
+}
+#menu h3{
+    
+    color: rgb(62, 67, 109);
+}
+#menu img{
+    width: 1.9rem;
+    margin: auto;
+}
+
+#menu li{
+    
+}
+#menu a {
+    position: relative;
+    padding: 8px 10px 8px 10px;
+    font-size: 18px;
+    line-height: 1;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+#menu a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid;
+    transition: 0.2s all linear;
+}
+#menu a:hover::before {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#menu a:focus{
+    transition: 0s all linear;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s all linear;
+}
+
+
 #header ul {
     width: 100%;
     display: flex;
@@ -67,6 +121,32 @@ li{list-style-type: none;}
     font-size: 18px;
     transition: 0.2s all linear;
 }
+#header form{
+    background-color: white;
+    border-radius: 16px;
+}
+#header input[type=button]{
+    border: 0;
+    border-radius: 16px;
+}
+#header input[type=button]:hover{
+    background-color: #e66465;
+    transition: 0.2s all linear;
+}
+#header input[type=button]:hover{
+    border: 0;
+    border-radius: 16px;
+}
+#header input[type=search]{
+    border: 0;
+    border-radius: 16px;
+}
+
+#header input[type=submit]{
+    background-color: orangered;
+    border: 0;
+    border-radius: 16px;
+}
 .a1{
     padding: 4px;
     border-radius: 3px;
@@ -74,7 +154,7 @@ li{list-style-type: none;}
     color: white;
 }
 #footer{
-    opacity: 0.8;
+    opacity: 0.9;
     white-space:nowrap;
     position: fixed;
     bottom: 0;
@@ -158,14 +238,14 @@ li{list-style-type: none;}
     color: white;
     transition: 0.2s all linear;
 }
-table{
+#sth,#box table{
     border-collapse: collapse;
     width: 100%;
     text-align: center;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 }
-table td,th{
+#sth,#box td,th{
     border-left: 1px solid black;
     border-top: 1px solid black;
 }

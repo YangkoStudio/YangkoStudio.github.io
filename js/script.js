@@ -29,10 +29,25 @@ function startTime()
 	document.getElementById('txt').innerHTML=y+" 年 "+mon+" 月 "+d+" 日  "+w+" "+hour+":"+min+":"+sec
 	t=setTimeout('startTime()',500)
 }
-
 function checkTime(i)
 {
 	if (i<10)
 	{i="0" + i}
 	return i
+}
+function popDiv(){
+	// 通过唯一id值获取div元素
+	var popBox = document.getElementById("menu");
+	var popLayer = document.getElementById("popLayer");
+
+	// 控制两个div的显示与隐藏
+	popBox.style.display = "block";
+	popLayer.style.display = "block";
+}
+
+function closePop(){
+	// 通过唯一id值获取弹出窗口元素
+	let popDiv = document.getElementById("menu");
+
+	popDiv.style.display = "none";
 }
