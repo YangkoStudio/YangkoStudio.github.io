@@ -1,9 +1,10 @@
 .yk-ux{
-  opacity: 0.95;
+  opacity: 0.98;
   line-height: 0;
 }
 .yk-sd{
-  opacity: 0.95;
+  opacity: 0.98;
+  white-space:nowrap;
   background: linear-gradient(to right,#333,#111);
 }
 .yk-ud a {
@@ -89,11 +90,6 @@
   background-color:#000000;
   background: linear-gradient(to bottom,#111,black);
 }
-input::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-  position: relative;
-  height: 20px;
-  width: 20px;
-  background: url("../assets/svg/x-lg.svg") no-repeat center;
-  background-size: 100% 100%;
+.yk-bx{
+  left: 50%;
 }
