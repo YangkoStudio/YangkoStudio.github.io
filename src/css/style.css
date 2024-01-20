@@ -1,3 +1,5 @@
+*{
+}
 .yk-ux{
   opacity: 0.98;
   line-height: 0;
@@ -10,12 +12,12 @@
 .yk-ud a {
   position: relative;
   line-height: 1.5;
-  transition: 0.2s all linear;
+  transition: 0.15s all linear;
   cursor: pointer;
-  -webkit-transition: 0.2s all linear;
-  -moz-transition: 0.2s all linear;
-  -ms-transition: 0.2s all linear;
-  -o-transition: 0.2s all linear;
+  -webkit-transition: 0.15s all linear;
+  -moz-transition: 0.15s all linear;
+  -ms-transition: 0.15s all linear;
+  -o-transition: 0.15s all linear;
 }
 .yk-ud a::before{
   content: "";
@@ -25,11 +27,11 @@
   width: 0;
   height: 100%;
   border-bottom: 3px solid;
-  transition: 0.2s all linear;
-  -webkit-transition: 0.2s all linear;
-  -moz-transition: 0.2s all linear;
-  -ms-transition: 0.2s all linear;
-  -o-transition: 0.2s all linear;
+  transition: 0.15s all linear;
+  -webkit-transition: 0.15s all linear;
+  -moz-transition: 0.15s all linear;
+  -ms-transition: 0.15s all linear;
+  -o-transition: 0.15s all linear;
 }
 .yk-ud a:hover::before {
   width: 100%;
