@@ -7,7 +7,7 @@ function startTime()
 	var hour=today.getHours()
 	var min=today.getMinutes()
 	var sec=today.getSeconds()
-	var weeks = new Array("Sun.", "Mon.", "Tues.", "Wed.", "Thur.", "Fri.", "Sat.");
+	var weeks = new Array("Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat");
 	var w= weeks[today.getDay()]
 	min=checkTime(min)
 	sec=checkTime(sec)

@@ -1,8 +1,5 @@
-*{
-  
-}
 .yk-ux{
-  opacity: 0.8;
+  opacity: 0.95;
   line-height: 0;
 }
 .yk-sd{
@@ -95,17 +92,8 @@
 input::-webkit-search-cancel-button {
   -webkit-appearance: none;
   position: relative;
-  width: 1rem;
-  background: url("../assets/svg/x.svg") no-repeat center;
+  height: 20px;
+  width: 20px;
+  background: url("../assets/svg/x-lg.svg") no-repeat center;
   background-size: 100% 100%;
-  color:rgba(0,0,0,0);
-}
-input[type=search]::-ms-clear {
-  appearance: none;
-  position: relative;
-  height: 2rem;
-  width: 2rem;
-  background: url("../assets/svg/x.svg") no-repeat center;
-  background-size: 100% 100%;
-  color:rgba(0,0,0,0);
 }
