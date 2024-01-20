@@ -1,0 +1,111 @@
+*{
+  
+}
+.yk-ux{
+  opacity: 0.8;
+  line-height: 0;
+}
+.yk-sd{
+  opacity: 0.95;
+  background: linear-gradient(to right,#333,#111);
+}
+.yk-ud a {
+  position: relative;
+  line-height: 1.5;
+  transition: 0.2s all linear;
+  cursor: pointer;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  -ms-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
+}
+.yk-ud a::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 100%;
+  border-bottom: 3px solid;
+  transition: 0.2s all linear;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  -ms-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
+}
+.yk-ud a:hover::before {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.yk-a1{
+  padding: 2px;
+  border-radius: 0px;
+  background-color: peru;
+  color: white;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.yk-a2{
+  padding-left: 5px;
+  color: black;
+  background: linear-gradient(to right,brown,orangered,forestgreen,steelblue,purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.yk-t0 a:hover{
+  color: white;
+}
+.yk-t1 a:hover{
+  color: brown;
+}
+.yk-t2 a:hover{
+  color: springgreen;
+}
+.yk-t3 a:hover{
+  color: steelblue;
+}
+.yk-t4 a:hover{
+  color: orangered;
+}
+.yk-t5 a:hover{
+  color: purple;
+}
+#txt{
+  color: #ffffff8c;
+}
+::-webkit-scrollbar
+{
+  width:7px;
+  background-color:#333;
+}
+::-webkit-scrollbar-track
+{
+  background-color:#333;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color:#000000;
+  background: linear-gradient(to bottom,#111,black);
+}
+input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  position: relative;
+  width: 1rem;
+  background: url("../assets/svg/x.svg") no-repeat center;
+  background-size: 100% 100%;
+  color:rgba(0,0,0,0);
+}
+input[type=search]::-ms-clear {
+  appearance: none;
+  position: relative;
+  height: 2rem;
+  width: 2rem;
+  background: url("../assets/svg/x.svg") no-repeat center;
+  background-size: 100% 100%;
+  color:rgba(0,0,0,0);
+}

@@ -1,1 +1,0 @@
-Yangko Studio
