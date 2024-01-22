@@ -50,12 +50,12 @@ Singer Open System
 .yk-uda a {
   position: relative;
   line-height: 1.5;
-  transition: 0.2s all linear;
+  transition: 0.4s all linear;
   cursor: pointer;
-  -webkit-transition: 0.2s all linear;
-  -moz-transition: 0.2s all linear;
-  -ms-transition: 0.2s all linear;
-  -o-transition: 0.2s all linear;
+  -webkit-transition: 0.4s all linear;
+  -moz-transition: 0.4s all linear;
+  -ms-transition: 0.4s all linear;
+  -o-transition: 0.4s all linear;
 }
 .yk-uda a::before{
   content: "";
@@ -64,15 +64,15 @@ Singer Open System
   left: 0;
   width: 0;
   height: 100%;
-  border-bottom: 2px solid;
-  transition: 0.2s all linear;
-  -webkit-transition: 0.2s all linear;
-  -moz-transition: 0.2s all linear;
-  -ms-transition: 0.2s all linear;
-  -o-transition: 0.2s all linear;
+  border-bottom: 2px groove;
+  transition: 0.4s all linear;
+  -webkit-transition: 0.4s all linear;
+  -moz-transition: 0.4s all linear;
+  -ms-transition: 0.4s all linear;
+  -o-transition: 0.4s all linear;
 }
 .yk-uda a:hover::before {
-  width: 50%;
+  width: 100%;
   top: 0;
   left: 0;
 }
@@ -123,17 +123,17 @@ Singer Open System
 ::-webkit-scrollbar
 {
   width:7px;
-  background-color:#777;
+  height: 7px;
+  background-color:#fff;
 }
 ::-webkit-scrollbar-track
 {
-  background-color:#777;
+  background-color:#fff;
 }
 
 ::-webkit-scrollbar-thumb
 {
   background-color:#000000;
-  background: linear-gradient(to bottom,black,#111,black);
 }
 .yk-bx{
   left: 50%;

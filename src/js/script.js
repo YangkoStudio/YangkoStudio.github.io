@@ -20,3 +20,5 @@ function checkTime(i)
 	{i="0" + i}
 	return i
 }
+
+alert("测试网站，版本号：1.1.0")
