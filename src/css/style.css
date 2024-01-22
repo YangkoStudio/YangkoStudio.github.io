@@ -1,8 +1,16 @@
+/*
+----------------------------
+	Yangko Studio
+----------------------------
+Singer Open System
+*/
 *{
+  user-select: none;
 }
 .yk-ux{
   opacity: 0.98;
   line-height: 0;
+  background: linear-gradient(to right,#111,#333);
 }
 .yk-sd{
   opacity: 0.98;
@@ -38,6 +46,43 @@
   top: 0;
   left: 0;
 }
+
+
+
+.yk-uda a {
+  position: relative;
+  line-height: 1.5;
+  transition: 0.2s all linear;
+  cursor: pointer;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  -ms-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
+}
+.yk-uda a::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-bottom: 2px solid;
+  transition: 0.2s all linear;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  -ms-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
+}
+.yk-uda a:hover::before {
+  width: 50%;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
 .yk-a1{
   padding: 2px;
   border-radius: 0px;
@@ -72,7 +117,7 @@
   color: orangered;
 }
 .yk-t5 a:hover{
-  color: purple;
+  color: black;
 }
 #txt{
   color: #ffffff8c;
@@ -80,18 +125,36 @@
 ::-webkit-scrollbar
 {
   width:7px;
-  background-color:#333;
+  background-color:#777;
 }
 ::-webkit-scrollbar-track
 {
-  background-color:#333;
+  background-color:#777;
 }
 
 ::-webkit-scrollbar-thumb
 {
   background-color:#000000;
-  background: linear-gradient(to bottom,#111,black);
+  background: linear-gradient(to bottom,black,#111,black);
 }
 .yk-bx{
   left: 50%;
+}
+input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  position: relative;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  background: url("../assets/svg/x-lg.svg") no-repeat center;
+  background-size: 100% 100%;
+}
+input[type=search]::-ms-clear {
+  appearance: none;
+  position: relative;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  background: url("../assets/svg/x-lg.svg") no-repeat center;
+  background-size: 100% 100%;
 }
