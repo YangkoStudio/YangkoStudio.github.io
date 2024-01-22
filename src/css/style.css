@@ -8,12 +8,10 @@ Singer Open System
   user-select: none;
 }
 .yk-ux{
-  opacity: 0.98;
   line-height: 0;
   background: linear-gradient(to right,#111,#333);
 }
 .yk-sd{
-  opacity: 0.98;
   white-space:nowrap;
   background: linear-gradient(to right,#333,#111);
 }
