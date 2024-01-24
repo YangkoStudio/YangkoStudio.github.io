@@ -3,12 +3,11 @@
   white-space:nowrap;
 }
 .yk-ux{
-  line-height: 0;
-  background: linear-gradient(to right,#111,#333);
+  line-height: 1.5;
+  background-color: #111;
 }
 .yk-sd{
-  white-space:nowrap;
-  background: linear-gradient(to right,#333,#111);
+  background-color: #111;
 }
 .yk-ud a {
   position: relative;
@@ -79,6 +78,26 @@
   -o-border-radius: 0px;
 }
 .yk-a2{
+  padding-left: 5px;
+  color: black;
+  background: linear-gradient(to right,brown,orangered,forestgreen,steelblue,purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.yk-ab1{
+  padding: 8px;
+  font-size: larger;
+  border-radius: 0px;
+  background-color: peru;
+  color: white;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.yk-ab2{
+  font-size: larger;
   padding-left: 5px;
   color: black;
   background: linear-gradient(to right,brown,orangered,forestgreen,steelblue,purple);
