@@ -5,57 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yangko Studio</title>
-    <!--<embed src="src/assets/audio/C4000005MF9L3Ro5nN.m4a" hidden="true" autostart="true" loop="true">-->
+    <embed src="src/assets/audio/C400001B8z7J3aY41y.m4a" hidden="true" autostart="true" loop="true">
     <link rel="icon" type="image/x-icon" href="src/assets/icon/favicon.ico">
-    <!--JS-->
-    <script type="text/javascript" src="src/js/script.js"></script>
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!--CSS-->
     <link rel="stylesheet" type="text/css" href="src/css/style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
-  <body  id="mobile" onload="startTime()">
+  <body onload="startTime()">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top yk-sd">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
-            <li class="nav-item yk-ud">
-              <a class="nav-link" href="#">
-                <span class="yk-a1">YK</span>
-                <span class="yk-a2">Yangko Studio</span>
-              </a>
-            </li>
-            <li id="mobile" class="nav-item yk-ud yk-t1">
-              <a class="nav-link" href="#">主页</a>
-            </li>
-            <li class="nav-item yk-ud yk-t2">
-              <a class="nav-link" href="#">新闻</a>
-            </li>
-            <li class="nav-item yk-ud yk-t3">
-              <a class="nav-link" href="#">文件</a>
-            </li>
-            <li class="nav-item yk-ud yk-t4">
-              <a class="nav-link" href="#">信息</a>
-            </li>
-            
+            <li class="nav-item yk-ud yk-t0"><a class="nav-link" href="#"><span class="yk-a1">YK</span><span class="yk-a2">Yangko Studio</span></a></li>
+            <li id="PCStyle" class="nav-item yk-ud yk-t1"><a class="nav-link" href="#">主页</a></li>
+            <li id="PCStyle" class="nav-item yk-ud yk-t2"><a class="nav-link" href="#">新闻</a></li>
+            <li id="PCStyle" class="nav-item yk-ud yk-t3"><a class="nav-link" href="#">文件</a></li>
+            <li id="PCStyle" class="nav-item yk-ud yk-t4"><a class="nav-link" href="#">信息</a></li>
           </ul>
-          <form class="input-group w-25">
+          <form id="PCStyle" class="input-group w-25">
             <input class="form-control input-small" type="search" placeholder="搜索内容">
             <button class="btn btn-primary" type="submit" title="搜索"><i class="bi bi-search"></i></button>
           </form>
-          <button class="btn btn-danger bi bi-person-circle ms-2"  title="用户" type="button"></button>
-          <button class="btn btn-success bi bi-list ms-2"  title="菜单" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" type="button"></button>
-        
-
+          <button id="PCStyle" class="btn btn-danger bi bi-person-circle ms-2"  title="用户" type="button"></button>
+          <button id="MTStyle" class="btn btn-success bi bi-list ms-2"  title="菜单" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" type="button"></button>
           </div>
         </div>
       </div>
     </nav>
-    <br>
-    <br>
-    <br>
+    <br><br><br>
 <!----------------------------------------------------->
     <div id="demo" class="carousel slide carousel-dark container" data-bs-ride="carousel" data-bs-interval="5000">
       <div class="carousel-indicators">
@@ -143,11 +122,13 @@
       </tr>
       <tr>
         <td>
-          <h5 style="display: inline-block;" >Yangko Studio</h5>
+          <h5 style="display: inline-block;" id="M">Yangko Studio</h5>
         </td>
       </tr>
     </tbody>
   </table>
+  <p id="MTStyle">Mt_Text</p>
+  <p id="PCStyle">Pc_Text</p>
 </div>
 <!----------------------------------------------------->
 <div class="offcanvas offcanvas-end" style="margin: 0;" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
@@ -161,69 +142,10 @@
       <button class="btn btn-primary" type="submit" title="搜索"><i class="bi bi-search"></i></button>
     </form>
     <hr>
-      <a class="nav-link" href="#"><i style="color: red;" class="bi bi-house"></i> 主页</a>
-      <a class="nav-link" href="#"><i style="color: forestgreen;" class="bi bi-newspaper"></i> 新闻</a>
-      <a class="nav-link" href="#"><i style="color: blue;" class="bi bi-hdd"></i> 文件</a>
-      <a class="nav-link" href="#"><i style="color: orangered;" class="bi bi-info-circle"></i> 信息</a>
-      <hr> 
-      <h5>将进酒</h5>
-      <hr>
-      君不见，黄河之水天上来，奔流到海不复回。
-      君不见，高堂明镜悲白发，朝如青丝暮成雪！
-      <br>
-      人生得意须尽欢，莫使金樽空对月。
-      天生我材必有用，千金散尽还复来。
-      烹羊宰牛且为乐，会须一饮三百杯。
-      岑夫子，丹丘生，将进酒，杯莫停。
-      与君歌一曲，请君为我倾耳听。
-      <br>
-      钟鼓馔玉不足贵，但愿长醉不复醒。
-      古来圣贤皆寂寞，惟有饮者留其名。
-      陈王昔时宴平乐，斗酒十千恣欢谑。
-      主人何为言少钱，径须沽取对君酌。
-      五花马、千金裘，呼儿将出换美酒，与尔同销万古愁！
-      <hr>
-      <h5>2003压轴题</h5>
-      <hr>
-      已知函数
-      <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <mrow>
-          <msup><mn>f(x)</mn></msup>
-          <mo>=</mo>
-          <mfrac>
-            <mn>1</mn>
-              <msqrt>
-                <mtext>1+x</mtext>
-              </msqrt>  
-          </mfrac>
-          <mo>+</mo>
-          <mfrac>
-            <mn>1</mn>
-              <msqrt>
-                <mtext>1+a</mtext>
-              </msqrt>  
-          </mfrac>  
-          <mo>+</mo>
-          <msqrt>
-            <mfrac>
-              <mn>ax</mn>
-              <mn>ax+8</mn>
-            </mfrac>
-          </msqrt>    
-          <mo>，x∈(0,+∞)</mo>            
-       </mrow>
-      </math>
-      <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <mrow>
-          <mn>（1）当a = 8时，求f(x)的单调区间；</mn>
-       </mrow>
-      </math>
-      <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <mrow>
-          <mn>（2）对任何正数a，证明：1＜f(x)＜2.</mn>
-       </mrow>
-      </math>
-      <hr>
+    <a class="nav-link" href="#"><i style="color: red;" class="bi bi-house"></i> 主页</a>
+    <a class="nav-link" href="#"><i style="color: forestgreen;" class="bi bi-newspaper"></i> 新闻</a>
+    <a class="nav-link" href="#"><i style="color: blue;" class="bi bi-hdd"></i> 文件</a>
+    <a class="nav-link" href="#"><i style="color: orangered;" class="bi bi-info-circle"></i> 信息</a>
   </div>
 </div>
 <!----------------------------------------------------->
@@ -231,15 +153,12 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom yk-ux">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="p-2 nav-link">Power by Yangko Studio</a>
-        </li>
-        <li class="nav-item">
-          <a class="p-2 nav-link">Version:1.1.0</a>
-        </li>
-        <li class="nav-item">
-          <a id="txt" class="p-2 nav-link" style="position: absolute;right: 0;margin-left: auto;"></a>
+          <a id="txt" class="p-2 nav-link"></a>
         </li>
       </ul>
     </nav>
+<!-----------------------------JS-->
+<script type="text/javascript" src="src/js/script.js"></script>
+<!-----------------------------JS-->
   </body>
 </html>
