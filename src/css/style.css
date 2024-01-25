@@ -3,7 +3,7 @@
   white-space:nowrap;
 }
 .yk-ux{
-  line-height: 1.5;
+  line-height: 0;
   background-color: #111;
 }
 .yk-sd{
@@ -133,7 +133,4 @@ input[type=search]::-ms-clear {
   border-radius: 50%;
   background: url("../assets/svg/x-lg.svg") no-repeat center;
   background-size: 100% 100%;
-}
-#PCStyle{
-  
 }
