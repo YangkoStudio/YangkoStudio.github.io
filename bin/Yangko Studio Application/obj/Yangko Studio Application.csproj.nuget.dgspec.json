@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\YangkoStudio.github.io\\bin\\Yangko Studio Application\\Yangko Studio Application.csproj": {}
+  },
+  "projects": {
+    "D:\\YangkoStudio.github.io\\bin\\Yangko Studio Application\\Yangko Studio Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\YangkoStudio.github.io\\bin\\Yangko Studio Application\\Yangko Studio Application.csproj",
+        "projectName": "Yangko Studio Application",
+        "projectPath": "D:\\YangkoStudio.github.io\\bin\\Yangko Studio Application\\Yangko Studio Application.csproj",
+        "packagesPath": "C:\\Users\\yangz\\.nuget\\packages\\",
+        "outputPath": "D:\\YangkoStudio.github.io\\bin\\Yangko Studio Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yangz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.2210.55, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

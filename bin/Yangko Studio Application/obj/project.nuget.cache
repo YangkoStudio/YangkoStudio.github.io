@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tSpt3sPx4d4MpVLB2fbOnpvpx0HdNr+3iXj4M7VYpxBsS4rNdjA8zyQv4THaHQwVO/vU2YYW4OuyWVp7yg1mYQ==",
+  "success": true,
+  "projectFilePath": "D:\\YangkoStudio.github.io\\bin\\Yangko Studio Application\\Yangko Studio Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yangz\\.nuget\\packages\\microsoft.web.webview2\\1.0.2210.55\\microsoft.web.webview2.1.0.2210.55.nupkg.sha512"
+  ],
+  "logs": []
+}
