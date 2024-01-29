@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      p{
-        font-size: larger;
-      }
-    </style>
   <body>
-    <p>Yangko Studio 链接验证服务</p>
-    <hr>
-    <p>当前验证的链接：</p>
     <script>
+      function isValidUrl(string) {
+        try {
+          new URL(string);
+          return true;
+        } 
+        catch (err) {
+          return false;
+        }
+      }
       const url_string = window.location.href;
       const url = new URL(url_string);
       console.log(url.searchParams.get('url'));
-      document.write(url.searchParams.get('url'));
-      //location.href = url.searchParams.get('url');
+      if (isValidUrl(url.searchParams.get('url')) == 'ture') {
+        location.href = url.searchParams.get('url');
+      } else {
+        location.href = 'https://cn.bing.com/search?q=' + url.searchParams.get('url');
+      }
     </script>
   </body>
 </html>
