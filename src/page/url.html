@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p{
+        font-size: larger;
+      }
+    </style>
+  <body>
+    <p>Yangko Studio 链接验证服务</p>
+    <hr>
+    <p>当前验证的链接：</p>
+    <script>
+      const url_string = window.location.href;
+      const url = new URL(url_string);
+      console.log(url.searchParams.get('url'));
+      document.write(url.searchParams.get('url'));
+      //location.href = url.searchParams.get('url');
+    </script>
+  </body>
+</html>
