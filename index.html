@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yangko Studio</title>
-    <audio style="display: none" autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/src/assets/audio/C400000pKeHo1sB0Cn.m4a"></audio>
+    <audio style="display: none" autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/src/assets/audio/1454631673.mp3"></audio>
     <link rel="icon" type="image/x-icon" href="/src/assets/icon/favicon.ico">
     <script type="text/javascript" src="/src/node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/src/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/src/css/style.css">
     <link rel="stylesheet" type="text/css" href="/src/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/src/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <style>
+      .card{width: 300px;display: inline-block;}
+      .card-img-top{width: 100%;}
+      .card-title{text-align: center;}
+      .card-body a{display: block;}
+      h4{font-size: 15px;}
+    </style>
   </head>
   <body onload="startTime()">
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top yk-sd">
@@ -53,8 +60,7 @@
     </nav>
     <br>
     <br>
-    <br>
-    <div id="demo" class="carousel slide carousel-dark container" data-bs-ride="carousel" data-bs-interval="6000">
+    <div id="demo" style="background-color: #555" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -76,21 +82,16 @@
         <div class="carousel-item" style="text-align: center;">
           <img src="/src/assets/image/1b.png" style="display: inline-block;">
           <div class="carousel-caption">
-            <a href="/src/assets/other/X.xlsx">
-              <button class="btn btn-primary ms-2" type="button">下载经典版</button>
-            </a>
           </div>
         </div>
         <div class="carousel-item" style="text-align: center;">
           <img src="/src/assets/image/2.png" style="display: inline-block;">
           <div class="carousel-caption">
-            <h3>Auto Sever</h3>
           </div>
         </div>
         <div class="carousel-item" style="text-align: center;">
           <img src="/src/assets/image/3.png" style="display: inline-block;">
           <div class="carousel-caption">
-            <h3>Lab Config</h3>
           </div>
         </div>
       </div>
@@ -102,45 +103,36 @@
       </button>
     </div>
     <div class="container mt-3">
-      <h2>测试信息</h2>
-      <p>1.3.1</p>
-      <hr>
-    </div>
-    <div class="container mt-3">
       <h2>应用列表</h2>
       <hr>
-      <table class="table table-hover">
-        <tbody>
-          <tr>
-            <td class="bi bi-box-seam"></td>
-            <td>Ahou</td>
-            <td class="bi bi-link-45deg">
-              <a>未完成</a>
-            </td>
-          </tr>
-          <tr>
-            <td class="bi bi-box-seam"></td>
-            <td>Yangko Studio Application</td>
-            <td class="bi bi-link-45deg">
-              <a href="/src/assets/other/Yangko Studio Application 0.1.zip">下载</a>
-            </td>
-          </tr>
-          <tr>
-            <td class="bi bi-box-seam"></td>
-            <td>Mentceco</td>
-            <td class="bi bi-link-45deg">
-              <a>未完成</a>
-            </td>
-          </tr>
-          <tr>
-            <td class="bi bi-box-seam"></td>
-            <td>宝可梦</td>
-            <td class="bi bi-link-45deg">
-              <a href="/src/page/pokémon.html">跳转</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="card">
+        <img class="card-img-top" src="/src/assets/image/1.png">
+        <div class="card-body">
+          <h4 class="card-title">Ahou XIX</h4>
+          <a href="#" class="btn btn-success">详细信息</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="/src/assets/image/宝可梦_XY_官网简体中文海报.png">
+        <div class="card-body">
+          <h4 class="card-title">宝可梦</h4>
+          <a href="#" class="btn btn-success">详细信息</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="/src/assets/image/641.png">
+        <div class="card-body">
+          <h4 class="card-title">沙盒游戏三巨头</h4>
+          <a href="#" class="btn btn-success">详细信息</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="/src/assets/image/07edb091bb329145ee3f3f01476adb40acc6457b.jpg">
+        <div class="card-body">
+          <h4 class="card-title">GTA</h4>
+          <a href="#" class="btn btn-success">详细信息</a>
+        </div>
+      </div>
     </div>
     <div class="container mt-3">
       <h2>开发人员</h2>

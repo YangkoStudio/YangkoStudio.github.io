@@ -11,13 +11,35 @@
           return false;
         }
       }
+      function CheckUrl(str) { 
+	      var RegUrl = new RegExp(); 
+	      RegUrl.compile("^[A-Za-z]+://[A-Za-z0-9-_]+\\.[A-Za-z0-9-_%&\?\/.=]+$");
+	      if (!RegUrl.test(str)) { 
+	        return false; 
+	      } 
+        return true; 
+      } 
+
+      function checkUrl(urlString){
+	      if(urlString!=""){
+		      var reg=/(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?/;
+		      if(!reg.test(urlString)){
+		        return false;
+		      }
+          else{
+            return true;
+          }
+	      }
+      }
       const url_string = window.location.href;
       const url = new URL(url_string);
       console.log(url.searchParams.get('url'));
       if (isValidUrl(url.searchParams.get('url')) == 'ture') {
-        location.href = url.searchParams.get('url');
+        console.log("ture");
+        //location.href = url.searchParams.get('url');
       } else {
-        location.href = 'https://cn.bing.com/search?q=' + url.searchParams.get('url');
+        console.log("false");
+        //location.href = 'https://cn.bing.com/search?q=' + url.searchParams.get('url');
       }
     </script>
   </body>
