@@ -86,15 +86,15 @@
   color: transparent;
 }
 .yk-ab1{
-  padding: 8px;
+  padding: 6.5px;
+  border-radius: 5px;
   font-size: larger;
-  border-radius: 0px;
   background-color: peru;
   color: white;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -o-border-radius: 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .yk-ab2{
   font-size: larger;

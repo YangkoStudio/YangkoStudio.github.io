@@ -5,35 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yangko Studio</title>
-    <embed src="/src/assets/audio/C400000pKeHo1sB0Cn.m4a" hidden="true" autostart="true" loop="true">
     <link rel="icon" type="image/x-icon" href="/src/assets/icon/favicon.ico">
     <script type="text/javascript" src="/src/node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/src/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/src/css/style.css">
     <link rel="stylesheet" type="text/css" href="/src/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/src/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <style>
+      body{
+        background-image: url("/src/assets/image/RE4wqHL.jpg");
+      }
+      .container{
+        width: 400px;
+        margin: auto;
+      }
+      a,button{
+        display: block;
+        width: 
+        100%;
+      }
+      .nav-link{
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
 <!----------------------------------------------------->
-  <div class="row">
-    <div class="col-sm-8">
-      <img src="/src/assets/image/RE4wqHL.jpg">
-    </div>
-    <div class="col-sm-4" style="background-color: #111;color: white;">
-      <a class="nav-link mt-3" href="/index.html"><span class="yk-ab1">YK</span><span class="yk-ab2">Yangko Studio</span></a>
-      <div id="demo" class="col-sm-4 carousel slide mt-3" data-bs-ride="carousel" data-bs-interval="4000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/src/assets/image/1.png">
-          </div>
-          <div class="carousel-item">
-            <img src="/src/assets/image/2.png">
-          </div>
-        </div>
+<div class="input-group mb-3">
+  <a class="btn btn-dark bi bi-microsoft w-25" onclick="LoginMicrosoft()">账号密码登录</a>
+  <a class="btn btn-dark bi bi-github w-25" onclick="submit()">电话邮箱验证码登录</a>
+  <a class="btn btn-dark bi bi-tencent-qq w-25" onclick="submit()">第三方登录</a>
+  <a class="btn btn-dark bi bi-wechat w-25" onclick="submit()">高级登录</a>
+</div>
+<div class="container mt-3">
+  <div class="card">
+    <div class="card-body">
+      <a class="nav-link" href="/index.html">
+        <span class="yk-ab1">YK</span>
+        <span class="yk-ab2">Yangko Studio</span>
+      </a>
+      <hr>
+      <div class="input-group mb-3">
+        <span class="input-group-text bi bi-person-fill"></span>
+        <input type="text" class="form-control" placeholder="账户">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text bi bi-envelope-fill"></span>
+        <input type="email" class="form-control" placeholder="邮箱">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text bi bi-globe-asia-australia"></span>
+        <input type="text" class="form-control" placeholder="区号">
+        <span class="input-group-text bi bi-telephone-fill"></span>
+        <input type="tel" class="form-control w-50" placeholder="电话">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text bi bi-key-fill"></span>
+        <input type="password" class="form-control" placeholder="密码">
+      </div>
+      <div class="input-group mb-3">
+        <a class="btn btn-success bi bi-box-arrow-in-right w-50" onclick="submit()"> 登录</a>
+        <a class="btn btn-success bi bi-box-arrow-in-right w-50" onclick="submit()"> 注册</a>
+      </div>
+      <div class="input-group mb-3">
+        <a class="btn btn-dark bi bi-microsoft w-25" onclick="LoginMicrosoft()"></a>
+        <a class="btn btn-dark bi bi-github w-25" onclick="submit()"></a>
+        <a class="btn btn-dark bi bi-tencent-qq w-25" onclick="submit()"></a>
+        <a class="btn btn-dark bi bi-wechat w-25" onclick="submit()"></a>
       </div>
     </div>
   </div>
+</div>
+
+
 <!----------------------------------------------------->
     <script type="text/javascript" src="/src/js/script.js"></script>
+    <script type="text/javascript" src="/src/js/YSAS.js"></script>
   </body>
 </html>

@@ -3,3 +3,6 @@ function startTime(){var today=new Date();var y=today.getFullYear();var mon=toda
 function checkTime(i){if(i<10){i="0"+i}return i}
 function isMobile(){let flag=/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);return flag;}
 function cookie(){}
+
+
+
