@@ -13,11 +13,16 @@
     <link rel="stylesheet" type="text/css" href="/src/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
     <style>
       body{
-        background-image: url("/src/assets/image/RE4wqHL.jpg");
+        background-color: #222;
+
       }
       .container{
-        width: 400px;
+        width: 500px;
         margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
       a,button{
         display: block;
@@ -31,48 +36,27 @@
   </head>
   <body>
 <!----------------------------------------------------->
-<div class="input-group mb-3">
-  <a class="btn btn-dark bi bi-microsoft w-25" onclick="LoginMicrosoft()">账号密码登录</a>
-  <a class="btn btn-dark bi bi-github w-25" onclick="submit()">电话邮箱验证码登录</a>
-  <a class="btn btn-dark bi bi-tencent-qq w-25" onclick="submit()">第三方登录</a>
-  <a class="btn btn-dark bi bi-wechat w-25" onclick="submit()">高级登录</a>
-</div>
 <div class="container mt-3">
   <div class="card">
     <div class="card-body">
       <a class="nav-link" href="/index.html">
-        <span class="yk-ab1">YK</span>
-        <span class="yk-ab2">Yangko Studio</span>
+        <span class="yk-ab1">YKAL</span>
+        <span class="yk-ab2">Yangko Studio Account Linking</span>
       </a>
       <hr>
-      <div class="input-group mb-3">
-        <span class="input-group-text bi bi-person-fill"></span>
-        <input type="text" class="form-control" placeholder="账户">
-      </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text bi bi-envelope-fill"></span>
-        <input type="email" class="form-control" placeholder="邮箱">
-      </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text bi bi-globe-asia-australia"></span>
-        <input type="text" class="form-control" placeholder="区号">
-        <span class="input-group-text bi bi-telephone-fill"></span>
-        <input type="tel" class="form-control w-50" placeholder="电话">
-      </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text bi bi-key-fill"></span>
-        <input type="password" class="form-control" placeholder="密码">
-      </div>
-      <div class="input-group mb-3">
-        <a class="btn btn-success bi bi-box-arrow-in-right w-50" onclick="submit()"> 登录</a>
-        <a class="btn btn-success bi bi-box-arrow-in-right w-50" onclick="submit()"> 注册</a>
-      </div>
-      <div class="input-group mb-3">
-        <a class="btn btn-dark bi bi-microsoft w-25" onclick="LoginMicrosoft()"></a>
-        <a class="btn btn-dark bi bi-github w-25" onclick="submit()"></a>
-        <a class="btn btn-dark bi bi-tencent-qq w-25" onclick="submit()"></a>
-        <a class="btn btn-dark bi bi-wechat w-25" onclick="submit()"></a>
-      </div>
+      <a class="btn btn-dark bi bi-microsoft" onclick="LoginMicrosoft()"> Microsoft</a>
+      <form action="https://login.microsoftonline.com/3f88dd04-8eee-4173-ad3a-8cd251b381b7/oauth2/v2.0/token?client_id=ba233a00-6507-4339-a08d-3b6cf17286a6&session_state=ba233a00-6507-4339-a08d-3b6cf17286a6&redirect_uri=http://localhost:5500/src/page/sign.html&grant_type=authorization_code&client_secret=68U8Q~U~fxU5Y~L_6um8tRz.QdBJ-l_ZfyxZIaCd" method="post">
+      <input type="text" name="code">
+      <input type="submit">
+      </form>
+    </div>
+  </div>
+  <div class="card mt-3">
+    <div class="card-body">
+      <h5>Test/Information</h5>
+      user_image:<img src="">
+      <br>
+      user_name:<a></a>
     </div>
   </div>
 </div>
@@ -80,6 +64,6 @@
 
 <!----------------------------------------------------->
     <script type="text/javascript" src="/src/js/script.js"></script>
-    <script type="text/javascript" src="/src/js/YSAS.js"></script>
+    <script type="text/javascript" src="/src/js/YSAL.js"></script>
   </body>
 </html>
